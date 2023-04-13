@@ -1,0 +1,179 @@
+html, body{
+  overflow-x: hidden;
+}
+
+*{
+  font-family: roboto, sans-serif;
+}
+h1{
+  font-size: 60px;
+  margin-left: 50px;
+}
+h3{
+  color: white;
+  margin-left: 20px;
+}
+#about_h1{
+  margin-top: 100px;
+}
+
+
+header{
+  display: flex;
+  padding: 10px;
+}
+#header-img{
+  height: 70px;
+}
+#nav-bar{
+  background-color: red;
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  position: fixed;
+  top: 0;
+}
+.nav-link{
+  margin-top: 15px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover{
+  color: black;
+}
+
+
+
+#video{
+  display: block;
+  margin: auto;
+}
+
+
+figure{
+  display: inline-block;
+  float: left;
+  margin: 0 20px;
+}
+figure > img{
+  height: 90%;
+}
+figcaption{
+  text-align: center;
+  font-size: 40px;
+}
+.info{
+  vertical-align: center;
+  text-align: center;
+}
+#cnc{
+  margin-left: 35%;
+}
+
+.flav-image{
+  padding: 50px;
+  color: white;
+  margin: 40px 0;
+  display: block;
+  width: auto;
+  height: 30%;
+}
+.info{
+  overflow: hidden;
+}
+.choco{
+  background-color: red;
+}
+.strawb{
+  background-color: pink;
+}
+.matcha{
+  background-color: green;
+}
+.oreo{
+  background-color: LightGrey;
+}
+
+#variations{
+  block: block;
+}
+.var-image{
+  height: 50%;
+  block: inline-block;
+  margin: 40px;
+}
+.var-image > figure{
+  margin: 20px;
+  float: left;
+  height: 90%;
+}
+#giant{
+  margin-left: 20%;
+}
+.var-image > .info{
+  font-size: 20px;
+  vertical-align: middle;
+  padding-top: 100px;
+}
+
+
+
+footer{
+  background-color: #d9022a;
+  margin: 0;
+  padding: 20px;
+}
+label{
+  display: flex;
+  margin-left: 30px;
+  color: white;
+}
+#name, #email{
+  margin-left: 10px;
+  height: 2em;
+}
+#submit{
+  margin-left: 100px;
+  background-color: black;
+  shadow: red;
+  border: red;
+  width: 100px;
+  height: 2em;
+  color: white;
+}
+
+
+@media (max-width: 500px){
+  #video{
+    width: auto;
+  }
+
+  .flav-image{
+    height: 50%;
+    width: auto;
+  }
+  .oreo{
+    height: 65%;
+  }
+
+  figure{
+    display: block;
+  }
+  figure > img{
+  height: 60%;
+  display: flex;
+  margin: auto;
+  }
+
+  figcaption{
+  text-align: center;
+  font-size: 40px;
+  }
+
+  .var-image > .info{
+    color: transparent;
+  }
+}
